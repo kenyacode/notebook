@@ -11,7 +11,7 @@
 		.header_inner
 			.wrapper
 				%i.fa.fa-pencil
-				%h2 Scribble
+				%h2= link_to "Scribble", root_path
 				%nav
 					- if user_signed_in?
 						= link_to "New Scribble", new_note_path

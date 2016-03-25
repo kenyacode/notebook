@@ -81,8 +81,10 @@ header {
 		h2 {
 			float: left;
 			text-transform: uppercase;
-			color: white;
 			-webkit-margin-after: -0.5em;
+		}
+		a {
+			color: white;
 		}
 		nav {
 			float: right;
