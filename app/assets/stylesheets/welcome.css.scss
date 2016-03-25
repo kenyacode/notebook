@@ -1,5 +1,5 @@
 #banner {
-	background-image: url(image_path("welcome_banner_image.jpg"));
+	background-image: url(image_path("welcome_banner.jpg"));
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
@@ -41,10 +41,10 @@
 }
 
 #callouts {
-	background-image: url(image_path("app/assets/images/callout_background.jpg"));
+	background-image: url(image_path("callout_background.jpg"));
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: top center;
+	background-position: bottom center;
 	width: 100%;
 	min-height: 400px;
 	display: table;
